@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/user_list_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:gravity="center"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id="@+id/Seat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seat:"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class:"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#F44336"/>
+
+</LinearLayout>
